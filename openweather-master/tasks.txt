@@ -1,0 +1,25 @@
+1. Study api and generate api key (30 mins)
+
+2. Create the form using Spring MVC
+
+3. Set up environment
+- Create Spring Boot skeleton
+- Configure Intellij to use Maven 3.3.9
+
+4.  Create Controller class
+
+5. Create data model class CurrentWeatherData
+- data types for temperature, sunset, sunrise
+- temperature in celsius and fahrenheit
+
+6. Create Interface CurrentWeatherService and Service class CurrentWeatherServiceImpl
+	- create URL
+	- getCurrentWeatherByCityName
+	- map JSON to Java object
+	- convert units
+
+7.  Create OpenWeatherMapClient to call OpenWeatherMap api
+
+8. Create Json parser (2 hours)
+
+9. Use application.properties to store uri

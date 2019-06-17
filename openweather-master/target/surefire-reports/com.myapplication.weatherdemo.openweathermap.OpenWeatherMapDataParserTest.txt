@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.myapplication.weatherdemo.openweathermap.OpenWeatherMapDataParserTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 0.686 s - in com.myapplication.weatherdemo.openweathermap.OpenWeatherMapDataParserTest

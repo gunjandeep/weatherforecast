@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Current Weather Data for City</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+
+<body>
+<h1 th:align="center">Weather Forecast for the City Today</h1>
+<div>
+<table>
+    <tr>
+<div th:text="|Current date: ${currentDate}|" /> </tr>
+   <tr><div th:text="|City: ${cityName}|" /></tr>
+    <tr><div th:text="|Overall Weather Description: ${overallWeatherDescr}|" /></tr>
+    <tr><div th:text="|Temperature: ${temperatureInC} ℃ or ${temperatureInF}  ℉|" /></tr>
+    <tr><div th:text="|Sunrise time: ${sunriseTime} (Timezone where the application executed) |" /></tr>
+    <tr><div th:text="|Sunset time: ${sunsetTime} (Timezone where the application executed) |" /></tr>
+
+</table>
+</div>
+<div>
+<input type="button" onclick="location.href='/weather-forecast-home-data-page';" value="Back to home page" />
+</div>
+</body>
+</html>
+</html>

@@ -1,0 +1,7 @@
+com\myapplication\weatherdemo\service\impl\CurrentWeatherServiceImplTest.class
+com\myapplication\weatherdemo\web\HomePageControllerTest.class
+com\myapplication\weatherdemo\CurrentWeatherApplicationTest.class
+com\myapplication\weatherdemo\openweathermap\OpenWeatherMapDataParserTest.class
+com\myapplication\weatherdemo\web\api\CurrentWeatherControllerTest.class
+com\myapplication\weatherdemo\config\TestConfig.class
+com\myapplication\weatherdemo\restclient\HttpClientTest.class

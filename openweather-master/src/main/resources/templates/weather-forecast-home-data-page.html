@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title> Weather  Forecaster  Application</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+
+<body>
+
+<h1> Weather Forecast  Home</h1>
+
+<form action="/weather-forecast-data-for-city" method="get">
+    <div>
+    <h3>Choose a city:</h3><table>
+<tr>
+<td>
+    <select name="cityName">
+        <option value="Hong Kong, CN">Hong Kong, CN</option>
+        <option value="London, UK ">London,UK</option>
+        <option value="Vancouver, CA">Vancouver,CA</option>
+    </select>
+</td>
+</tr>
+  <tr>
+<td>
+      <input type="submit" value="Show Today's weather ">
+</td>
+</tr>
+    </table>   </div>
+</form>
+
+</body>
+
+</html>

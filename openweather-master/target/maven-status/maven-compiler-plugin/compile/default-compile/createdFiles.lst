@@ -1,0 +1,10 @@
+com\myapplication\weatherdemo\restclient\HttpClient.class
+com\myapplication\weatherdemo\service\WeatherForecastService.class
+com\myapplication\weatherdemo\WeatherforecastApplication.class
+com\myapplication\weatherdemo\web\api\WeatherForecastController.class
+com\myapplication\weatherdemo\web\HomePageController.class
+com\myapplication\weatherdemo\service\impl\WeatherForecastServiceImpl.class
+com\myapplication\weatherdemo\exception\AppException.class
+com\myapplication\weatherdemo\view\ViewForm.class
+com\myapplication\weatherdemo\openweathermap\OpenWeatherMapDataParser.class
+com\myapplication\weatherdemo\model\WeatherForecastData.class
