@@ -29,6 +29,6 @@ public class HomePageControllerTest {
         mockMvc.perform(get("/weather-forecast-home-data-page"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("weather-forecast-home-data-page"))
-                .andExpect(content().string(containsString("Welcome to the Current Weather Data Home")));
+                .andExpect(content().string(containsString( "Weather  Forecaster  Application")));
     }
 }
